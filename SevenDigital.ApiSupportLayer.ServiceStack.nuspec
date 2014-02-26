@@ -17,7 +17,7 @@
     </dependencies>
   </metadata>
   <files>
-	<file src="src\SevenDigital.ApiSupportLayer\bin\Release\SevenDigital.ApiSupportLayer.ServiceStack.dll" target="lib\net40" /> 
-	<file src="src\SevenDigital.ApiSupportLayer\bin\Release\SevenDigital.ApiSupportLayer.ServiceStackpdb" target="lib\net40" /> 
+	<file src="src\SevenDigital.ApiSupportLayer.ServiceStack\bin\Release\SevenDigital.ApiSupportLayer.ServiceStack.dll" target="lib\net40" /> 
+	<file src="src\SevenDigital.ApiSupportLayer.ServiceStack\bin\Release\SevenDigital.ApiSupportLayer.ServiceStack.pdb" target="lib\net40" /> 
   </files>
 </package>
