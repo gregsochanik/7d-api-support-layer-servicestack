@@ -88,6 +88,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\SevenDigital.Api.Wrapper.Premium.3.2.3\lib\net40\SevenDigital.Api.Wrapper.Premium.dll</HintPath>
     </Reference>
+    <Reference Include="SevenDigital.ApiSupportLayer, Version=3.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\SevenDigital.ApiSupportLayer.3.2.3\lib\net40\SevenDigital.ApiSupportLayer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
