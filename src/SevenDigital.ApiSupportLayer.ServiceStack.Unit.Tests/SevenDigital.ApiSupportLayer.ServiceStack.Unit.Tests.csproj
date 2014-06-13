@@ -110,18 +110,15 @@
   <ItemGroup>
     <Compile Include="Authentication\SevenDigitalCredentialsAuthProviderTests.cs" />
     <Compile Include="Authentication\_if_user_does_not_exist.cs" />
-    <Compile Include="Mapping\AddCardMapperTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ApiCardPurchaseRuleTest.cs" />
     <Compile Include="Services\ContextHelper.cs" />
     <Compile Include="Services\DownloadFileServiceTests.cs" />
-    <Compile Include="Services\ItemRequestExtensionTests.cs" />
     <Compile Include="Services\PriceWatchTests.cs" />
     <Compile Include="Services\ReleaseTracksExtensionTests.cs" />
     <Compile Include="Services\RestrictedByIpAddressGeoLookupTests.cs" />
     <Compile Include="Services\ShopRestrictionServiceTests.cs" />
     <Compile Include="Services\ShopUrlServiceTests.cs" />
-    <Compile Include="Services\StatusServiceTests.cs" />
     <Compile Include="Services\StreamingUriServiceTest.cs" />
     <Compile Include="Services\UserDeliverItemBuyerTests.cs" />
     <Compile Include="TestData\TestArtist.cs" />
@@ -142,6 +139,9 @@
       <Project>{b000af1f-d190-4d1f-a528-fc44475d8243}</Project>
       <Name>SevenDigital.ApiSupportLayer.TestData</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mapping\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
