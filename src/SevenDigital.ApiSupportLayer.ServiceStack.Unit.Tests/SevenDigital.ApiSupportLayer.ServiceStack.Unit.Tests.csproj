@@ -116,9 +116,6 @@
     <Compile Include="Services\DownloadFileServiceTests.cs" />
     <Compile Include="Services\PriceWatchTests.cs" />
     <Compile Include="Services\ReleaseTracksExtensionTests.cs" />
-    <Compile Include="Services\RestrictedByIpAddressGeoLookupTests.cs" />
-    <Compile Include="Services\ShopRestrictionServiceTests.cs" />
-    <Compile Include="Services\ShopUrlServiceTests.cs" />
     <Compile Include="Services\StreamingUriServiceTest.cs" />
     <Compile Include="Services\UserDeliverItemBuyerTests.cs" />
     <Compile Include="TestData\TestArtist.cs" />
@@ -140,9 +137,7 @@
       <Name>SevenDigital.ApiSupportLayer.TestData</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mapping\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

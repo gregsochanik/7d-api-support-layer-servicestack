@@ -114,16 +114,10 @@
     <Compile Include="Services\ReleaseSlug\ReleaseSlugRequest.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugResponse.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugService.cs" />
-    <Compile Include="GeoLocation\RestrictedByIpAddressGeoLookup.cs" />
     <Compile Include="Services\ReleaseRecommend\ReleaseRecommendRequest.cs" />
     <Compile Include="Services\ReleaseRecommend\ReleaseRecommendService.cs" />
     <Compile Include="Services\ReleaseTracks\ReleaseTracksService.cs" />
     <Compile Include="ServiceSessionExtensions.cs" />
-    <Compile Include="Services\Shops\ShopRestriction.cs" />
-    <Compile Include="Services\Shops\ShopRestrictionService.cs" />
-    <Compile Include="Services\Shops\ShopUrl.cs" />
-    <Compile Include="Services\Shops\ShopUrlConstants.cs" />
-    <Compile Include="Services\Shops\ShopUrlService.cs" />
     <Compile Include="Services\Streaming\StreamingUriService.cs" />
     <Compile Include="Services\Tracks\TrackSearchService.cs" />
     <Compile Include="Services\Tracks\TrackService.cs" />
@@ -140,11 +134,7 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mapping\" />
-    <Folder Include="Model\" />
-    <Folder Include="Services\Status\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
