@@ -106,11 +106,8 @@
     <Compile Include="Authentication\SevenDigitalCredentialsAuthProvider.cs" />
     <Compile Include="Cache\LockerReloader.cs" />
     <Compile Include="Catalogue\CachingCatalogue.cs" />
-    <Compile Include="Services\Downloading\DownloadTrackRequest.cs" />
     <Compile Include="Services\Streaming\StreamingUrlRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\Downloading\DownloadFileService.cs" />
-    <Compile Include="Services\Downloading\DownloadService.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugRequest.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugResponse.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugService.cs" />

@@ -113,7 +113,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ApiCardPurchaseRuleTest.cs" />
     <Compile Include="Services\ContextHelper.cs" />
-    <Compile Include="Services\DownloadFileServiceTests.cs" />
     <Compile Include="Services\PriceWatchTests.cs" />
     <Compile Include="Services\ReleaseTracksExtensionTests.cs" />
     <Compile Include="Services\StreamingUriServiceTest.cs" />
