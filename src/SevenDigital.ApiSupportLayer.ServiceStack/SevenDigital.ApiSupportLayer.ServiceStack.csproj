@@ -88,9 +88,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\SevenDigital.Api.Wrapper.Premium.3.2.3\lib\net40\SevenDigital.Api.Wrapper.Premium.dll</HintPath>
     </Reference>
-    <Reference Include="SevenDigital.ApiSupportLayer, Version=3.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="SevenDigital.ApiSupportLayer, Version=3.2.5.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\SevenDigital.ApiSupportLayer.3.2.3\lib\net40\SevenDigital.ApiSupportLayer.dll</HintPath>
+      <HintPath>..\..\packages\SevenDigital.ApiSupportLayer.3.2.5\lib\net40\SevenDigital.ApiSupportLayer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -105,19 +105,14 @@
   <ItemGroup>
     <Compile Include="Authentication\SevenDigitalCredentialsAuthProvider.cs" />
     <Compile Include="Cache\LockerReloader.cs" />
-    <Compile Include="Catalogue\CachingCatalogue.cs" />
-    <Compile Include="Services\Streaming\StreamingUrlRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugRequest.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugResponse.cs" />
     <Compile Include="Services\ReleaseSlug\ReleaseSlugService.cs" />
     <Compile Include="Services\ReleaseRecommend\ReleaseRecommendRequest.cs" />
     <Compile Include="Services\ReleaseRecommend\ReleaseRecommendService.cs" />
-    <Compile Include="Services\ReleaseTracks\ReleaseTracksService.cs" />
     <Compile Include="ServiceSessionExtensions.cs" />
-    <Compile Include="Services\Streaming\StreamingUriService.cs" />
     <Compile Include="Services\Tracks\TrackSearchService.cs" />
-    <Compile Include="Services\Tracks\TrackService.cs" />
     <Compile Include="Services\UrlSlugParsing\ISlugToNameParser.cs" />
     <Compile Include="Services\UrlSlugParsing\SlugNotFoundException.cs" />
     <Compile Include="Services\UrlSlugParsing\SlugParseException.cs" />
@@ -131,7 +126,11 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Catalogue\" />
+    <Folder Include="Services\ReleaseTracks\" />
+    <Folder Include="Services\Streaming\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
